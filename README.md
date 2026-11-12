@@ -1,14 +1,23 @@
 # TableArrange
 
-Research implementations of two tabletop scene arrangement methods:
+This repository contains tabletop scene generation baselines implemented for two research works:
+
+- **[MesaTask](https://arxiv.org/abs/2509.22281)** — *Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning* (NeurIPS 2025).
+- **[STABLE](https://arxiv.org/abs/2605.16137)** — *Simulation-Ready Tabletop Layout Generation via a Semantics–Physics Dual System* (ICML 2026).
+
+The repository adapts two existing 3D indoor scene generation methods to **task-driven tabletop scene generation**.
+
+## Implemented Baselines
 
 | Method | Description | Documentation |
 | --- | --- | --- |
-| IDesign Table | LLM agents build and refine a scene graph, then assign object positions with backtracking. | [Setup and usage](IDesign_table/README.md) |
-| Holodeck Table | Text-guided table generation, Objaverse asset retrieval, and spatial constraint placement. | [Setup and usage](holodeck_table/README.md) |
+| **I-Design-Table** | Adapted from [I-Design](https://github.com/atcelen/IDesign). Extends its LLM-based scene graph generation and backtracking placement pipeline from indoor furniture arrangement to task-driven tabletop object layouts. | [Setup and Usage](IDesign_table/README.md) |
+| **Holodeck-Table** | Adapted from [Holodeck](https://github.com/allenai/Holodeck). Extends its language-guided scene generation, asset retrieval, and spatial constraint-based placement pipeline to tabletop environments. | [Setup and Usage](holodeck_table/README.md) |
 
-Use separate Python environments for the two methods. Their dependencies, input formats, coordinate conventions, and external asset requirements differ; consult each method's README before running it.
+## Setup
 
-Credentials are supplied through environment variables or an ignored local configuration file. Real API keys, `.env` files, caches, and previous Git histories are excluded from this source snapshot. Previously used credentials still need to be revoked or rotated.
+The two baselines require separate Python environments due to differences in dependencies, input formats, coordinate conventions, and asset requirements. Please refer to their respective documentation for installation and evaluation instructions.
 
-Holodeck's upstream license is preserved in [holodeck_table/LICENSE](holodeck_table/LICENSE). The IDesign adaptation currently has no standalone license file; licensing for the two directories should be considered separately.
+## License
+
+This repository is licensed under the [Apache License 2.0](LICENSE).
