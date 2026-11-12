@@ -1,0 +1,236 @@
+[
+    {
+        "new_object_id": "potted_plant_1",
+        "style": "modern",
+        "material": "ceramic pot with a green leafy plant",
+        "size_in_meters": {
+            "length": 0.15,
+            "width": 0.15,
+            "height": 0.3
+        },
+        "is_on_the_table": true,
+        "facing": "east_edge",
+        "placement": {
+            "table_layout_elements": [
+                {
+                    "layout_element_id": "west_edge",
+                    "preposition": "on"
+                }
+            ],
+            "objects_on_table": []
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 0.075,
+            "y": 0.1958513198449543,
+            "z": 0.15
+        }
+    },
+    {
+        "new_object_id": "mug_1",
+        "style": "classic",
+        "material": "ceramic",
+        "size_in_meters": {
+            "length": 0.08,
+            "width": 0.08,
+            "height": 0.1
+        },
+        "is_on_the_table": true,
+        "facing": "north_edge",
+        "placement": {
+            "table_layout_elements": [
+                {
+                    "layout_element_id": "middle_of_table",
+                    "preposition": "on"
+                }
+            ],
+            "objects_on_table": []
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 0.7607146155462049,
+            "y": 0.2882951656295862,
+            "z": 0.05
+        }
+    },
+    {
+        "new_object_id": "mug_2",
+        "style": "classic",
+        "material": "ceramic",
+        "size_in_meters": {
+            "length": 0.08,
+            "width": 0.08,
+            "height": 0.1
+        },
+        "is_on_the_table": true,
+        "facing": "north_edge",
+        "placement": {
+            "table_layout_elements": [],
+            "objects_on_table": [
+                {
+                    "object_id": "toothbrush_holder_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.0577934982604353,
+            "y": 0.352,
+            "z": 0.05
+        }
+    },
+    {
+        "new_object_id": "toothbrush_holder_1",
+        "style": "modern",
+        "material": "plastic",
+        "size_in_meters": {
+            "length": 0.1,
+            "width": 0.1,
+            "height": 0.15
+        },
+        "is_on_the_table": true,
+        "facing": "west_edge",
+        "placement": {
+            "table_layout_elements": [
+                {
+                    "layout_element_id": "east_edge",
+                    "preposition": "on"
+                }
+            ],
+            "objects_on_table": []
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.08,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.0625,
+            "y": 0.262,
+            "z": 0.075
+        }
+    },
+    {
+        "new_object_id": "north_edge",
+        "itemType": "edge",
+        "position": {
+            "x": 0.55,
+            "y": 0,
+            "z": 0.375
+        },
+        "size_in_meters": {
+            "length": 1.1,
+            "width": 0.05,
+            "height": 0.05
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "south_edge",
+        "itemType": "edge",
+        "position": {
+            "x": 0.55,
+            "y": 0.524,
+            "z": 0.375
+        },
+        "size_in_meters": {
+            "length": 1.1,
+            "width": 0.05,
+            "height": 0.05
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_edge",
+        "itemType": "edge",
+        "position": {
+            "x": 1.1,
+            "y": 0.262,
+            "z": 0.375
+        },
+        "size_in_meters": {
+            "length": 0.524,
+            "width": 0.05,
+            "height": 0.05
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_edge",
+        "itemType": "edge",
+        "position": {
+            "x": 0,
+            "y": 0.262,
+            "z": 0.375
+        },
+        "size_in_meters": {
+            "length": 0.524,
+            "width": 0.05,
+            "height": 0.05
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle_of_table",
+        "itemType": "surface",
+        "position": {
+            "x": 0.55,
+            "y": 0.262,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 1.1,
+            "width": 0.524,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

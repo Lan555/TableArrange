@@ -1,0 +1,8 @@
+data/
+.DS_Store
+__pycache__/
+.env
+.env.*
+!.env.example
+OAI_CONFIG_LIST.json
+.cache/

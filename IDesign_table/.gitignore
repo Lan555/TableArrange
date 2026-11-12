@@ -1,0 +1,8 @@
+__pycache__/
+.cache/
+OAI_CONFIG_LIST.json
+.env
+.env.*
+!.env.example
+.DS_Store
+*.py[cod]
